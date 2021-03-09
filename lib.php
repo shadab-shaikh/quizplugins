@@ -17,36 +17,36 @@
 /**
  * Capability definitions for this module.
  *
- * @package   mod_quizplugin
+ * @package   mod_quizplugins
  * @copyright 2021 WisdmLabs {@link http://www.wisdmlabs.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 
-function quizplugin_add_instance($newmodule){
+function quizplugins_add_instance($newmodule){
     // This function is executed after an admin creates an instance of activity plugin.
 }
 
-function quizplugin_update_instance($newmodule){
+function quizplugins_update_instance($newmodule){
 
 }
 
-function quizplugin_delete_instance($id){
+function quizplugins_delete_instance($id){
     // This function is executed after an admin update an instance of activity plugin
 }
 
-function quizplugin_user_outline(){
+function quizplugins_user_outline(){
     // This function is executed after an adminr delete an instance of activity plugin.
 }
 
-function quizplugin_user_complete($course, $user, $mod, $newmodule){
+function quizplugins_user_complete($course, $user, $mod, $newmodule){
 
 }
 
-function quizplugin_print_recent_activity($course, $isteacher, $timestart){
+function quizplugins_print_recent_activity($course, $isteacher, $timestart){
 
 }
 
-function quizplugin_cron(){
+function quizplugins_cron(){
 
 }

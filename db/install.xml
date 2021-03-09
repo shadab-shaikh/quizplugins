@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<XMLDB PATH="mod/quizplugin/db" VERSION="20210209" COMMENT="XMLDB file for Moodle mod/quizplugin"
+<XMLDB PATH="mod/quizplugins/db" VERSION="20210209" COMMENT="XMLDB file for Moodle mod/quizplugins"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:noNamespaceSchemaLocation="../../../lib/xmldb/xmldb.xsd"
 >
 <TABLES>
-<TABLE NAME="firstplug" COMMENT="quizPlugin">
+<TABLE NAME="quizplugins" COMMENT="quizPlugins">
 <FIELDS>
 <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="true"/>
 <FIELD NAME="name" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="false" COMMENT="name filed for quizplugin activity"/>

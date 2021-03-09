@@ -17,7 +17,7 @@
 /**
  * Capability definitions for this module.
  *
- * @package   mod_quizplugin
+ * @package   mod_quizplugins
  * @copyright 2021 WisdmLabs {@link http://www.wisdmlabs.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */

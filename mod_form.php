@@ -17,8 +17,8 @@
 /**
  * Capability definitions for this module.
  *
- * @package   mod_firstplug
- * @copyright 2020 WisdmLabs {@link http://www.wisdmlabs.com}
+ * @package   mod_quizplugin
+ * @copyright 2021 WisdmLabs {@link http://www.wisdmlabs.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -26,20 +26,16 @@
 defined('MOODLE_INTERNAL') || die();
 
 require_once($CFG->dirroot.'/course/moodleform_mod.php');
-class mod_fourstep_mod_form extends moodleform_mod {
-    /**
-     * Defines forms elements
-     */
+class mod_quizplugin_mod_form extends moodleform_mod {
+    
     public function definition() {
         global $CFG;
 
         $mform = $this->_form;
-        // Adding the "general" fieldset, where all the common settings are showed.
         $mform->addElement('header', 'general', get_string('general', 'form'));
 
         // Adding the standard "name" field.
-        $mform->addElement('text', 'name', get_string('fourstepname', 'fourstep'), array('size'=>'64'));
-        //get quizzes available in the course so as to select the quiz that fourstep will be //monitoring
+        $mform->addElement('text', 'name', get_string('quizpluginname', 'quizplugin'), array('size'=>'64'));
         // $rec = $this->getquiz();
         $rec = "";
         $res = $mform->addElement('select', 'quiz', get_string("select"), $rec);
@@ -50,9 +46,8 @@ class mod_fourstep_mod_form extends moodleform_mod {
         }
         $mform->addRule('name', null, 'required', null, 'client');
         $mform->addRule('name', get_string('maximumchars', '', 255), 'maxlength', 255, 'client');
-        $mform->addHelpButton('name', 'fourstepname', 'fourstep');
-
-        // Adding the standard "intro" and "introformat" fields.
+        $mform->addHelpButton('name', 'quizpluginname', 'quizplugin');
+        
         if ($CFG->branch = 29) {
             $this->standard_intro_elements();
         } else {

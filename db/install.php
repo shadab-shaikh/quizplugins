@@ -17,14 +17,14 @@
 /**
  * Capability definitions for this module.
  *
- * @package   mod_firstplug
- * @copyright 2020 WisdmLabs {@link http://www.wisdmlabs.com}
+ * @package   mod_quizplugin
+ * @copyright 2021 WisdmLabs {@link http://www.wisdmlabs.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-function xmldb_firstplug_install() {
+function xmldb_quizplugin_install() {
     global $CFG;
 
 }

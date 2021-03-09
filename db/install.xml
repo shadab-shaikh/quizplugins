@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<XMLDB PATH="mod/firstplug/db" VERSION="20210209" COMMENT="XMLDB file for Moodle mod/firstplug"
+<XMLDB PATH="mod/quizplugin/db" VERSION="20210209" COMMENT="XMLDB file for Moodle mod/quizplugin"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:noNamespaceSchemaLocation="../../../lib/xmldb/xmldb.xsd"
 >
 <TABLES>
-<TABLE NAME="firstplug" COMMENT="Default comment for firstplug, please edit me">
+<TABLE NAME="firstplug" COMMENT="quizPlugin">
 <FIELDS>
 <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="true"/>
-<FIELD NAME="name" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="false" COMMENT="name filed for firstplugin activity"/>
-<FIELD NAME="rollno" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="false" COMMENT="rollno filed for firstplugin activity"/>
-<FIELD NAME="class" TYPE="text" LENGTH="10" NOTNULL="true" SEQUENCE="false" COMMENT="class filed for firstplugin activity"/>
-<FIELD NAME="phoneno" TYPE="int" LENGTH="10" NOTNULL="true" DEFAULT="0" SEQUENCE="false" COMMENT="phone number filed for firstplugin activity"/>
+<FIELD NAME="name" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="false" COMMENT="name filed for quizplugin activity"/>
+<FIELD NAME="rollno" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="false" COMMENT="rollno filed for quizplugin activity"/>
+<FIELD NAME="class" TYPE="text" LENGTH="10" NOTNULL="true" SEQUENCE="false" COMMENT="class filed for quizplugin activity"/>
+<FIELD NAME="phoneno" TYPE="int" LENGTH="10" NOTNULL="true" DEFAULT="0" SEQUENCE="false" COMMENT="phone number filed for quizplugin activity"/>
 </FIELDS>
 <KEYS>
 <KEY NAME="primary" TYPE="primary" FIELDS="id"/>

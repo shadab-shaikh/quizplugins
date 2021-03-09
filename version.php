@@ -17,14 +17,14 @@
 /**
  * Folder module version information
  *
- * @package   mod_firstplug
+ * @package   mod_quizplugin
  * @copyright 2021 wisdmlabs  {@link http://wisdmlab.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2021020900;       // The current module version (Date: YYYYMMDDXX)
+$plugin->version   = 2021030900;       // The current module version (Date: YYYYMMDDXX)
 $plugin->requires  = 2020110300;    // Requires this Moodle version
 $plugin->component = 'mod_firstplug';     // Full name of the plugin (used for diagnostics)
 $plugin->cron      = 0;

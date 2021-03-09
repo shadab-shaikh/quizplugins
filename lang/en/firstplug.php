@@ -17,10 +17,10 @@
 /**
  * Capability definitions for this module.
  *
- * @package   mod_firstplug
+ * @package   mod_quizplugin
  * @copyright 2020 WisdmLabs {@link http://www.wisdmlabs.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 
-$string['modulename'] = 'Folder';
+$string['modulename'] = 'Quiz Plugin';
